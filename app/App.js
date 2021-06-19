@@ -16,7 +16,7 @@ export default function App() {
         <Image source={logo} style={{ width : 200, height: 100, marginTop:10,  marginBottom:10, borderRadius : 10}} /> 
       </View>
       <View style={{flex:2, padding : 10, justifyContent:'flex-start', alignItems:'center'}}>
-        <iframe  allowtransparency="true" src="https://tab2.clickmon.co.kr/pop/wp_ad_728.php?PopAd=CM_M_1003067%7C%5E%7CCM_A_1093475%7C%5E%7CAdver_M_1046207&mon_rf=REFERRER_URL" frameborder="0" scrolling="no"></iframe>
+        <iframe width="100%" allowtransparency="true" src="https://tab2.clickmon.co.kr/pop/wp_ad_728.php?PopAd=CM_M_1003067%7C%5E%7CCM_A_1093475%7C%5E%7CAdver_M_1046207&mon_rf=REFERRER_URL" frameborder="0" scrolling="no"></iframe>
       </View>
       {isLoading ? <View style={{flex:10, flexDirection:"row", justifyContent:'center', alignItems:'center'}}>
         사진을 보정하고 있어요. 잠시만 기다려주세요
@@ -46,7 +46,7 @@ export default function App() {
         <ImageSelector setImages={setImages} setIsLoading={setIsLoading}></ImageSelector>
       </View>
       <View style={{flex:1, padding : 10, justifyContent:'flex-start', alignItems:'center'}}>
-        <iframe allowtransparency="true" src="https://tab2.clickmon.co.kr/pop/wp_ad_728.php?PopAd=CM_M_1003067%7C%5E%7CCM_A_1093475%7C%5E%7CAdver_M_1046207&mon_rf=REFERRER_URL" frameborder="0" scrolling="no"></iframe>
+        <iframe width="100%" allowtransparency="true" src="https://tab2.clickmon.co.kr/pop/wp_ad_728.php?PopAd=CM_M_1003067%7C%5E%7CCM_A_1093475%7C%5E%7CAdver_M_1046207&mon_rf=REFERRER_URL" frameborder="0" scrolling="no"></iframe>
       </View>
     </View>
   );
