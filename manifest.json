@@ -2,8 +2,8 @@
   "background_color": "#ffffff",
   "display": "standalone",
   "lang": "en",
-  "name": "app",
-  "short_name": "app",
+  "name": "Insta Shot",
+  "short_name": "Insta Shot",
   "start_url": "/?utm_source=web_app_manifest",
   "orientation": "portrait",
   "icons": [
