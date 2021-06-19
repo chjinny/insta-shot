@@ -29,8 +29,8 @@ def process():
     src = cv2.imdecode(np.fromstring(request.files['file'].read(), np.uint8), cv2.IMREAD_UNCHANGED)
     dst = correct.correct(src)
 
-    timestamp = datetime.datetime.today().strftime('%Y%m%d%H%M%S%f')
-    cv2.imwrite(f"./logs/{timestamp}.png", dst)
+    #timestamp = datetime.datetime.today().strftime('%Y%m%d%H%M%S%f')
+    #cv2.imwrite(f"./logs/{timestamp}.png", dst)
     _, buffer = cv2.imencode('.jpg', dst)
     data = base64.b64encode(buffer)
     return jsonify({"uri":f"data:image/jpeg;base64,{str(data)[2:-1]}"})    
