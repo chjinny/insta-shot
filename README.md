@@ -1,5 +1,7 @@
 # 📷 Insta Shot
 ## 🧍‍♂️🧍‍♀️ Correct Your Body Ratio 
+Try Now! https://chjinny.github.io/insta-shot/
+
 ![Result](./img/result.jpg)
 
 https://youtu.be/jQO8Nu3j52I
