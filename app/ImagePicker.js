@@ -44,12 +44,14 @@ export default function ImageSelector(props) {
       const file = dataURLtoFile(result.uri)
       const data= new FormData()
       data.append("file", file)
+      props.setIsLoading(true)
       axios({
         method: "post",
-        url: "https://insta-shot.duckdns.org:5000/process", 
+        url: "https://chjinny.duckdns.org:5000/process", 
         data : data, 
       }).then((res) => {
         props.setImages([result, res.data]);
+        props.setIsLoading(false)
       })
     }
   };
