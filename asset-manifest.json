@@ -1,7 +1,7 @@
 {
   "files": {
-    "app.js": "/insta-shot/static/js/app.6698744a.chunk.js",
-    "app.js.map": "/insta-shot/static/js/app.6698744a.chunk.js.map",
+    "app.js": "/insta-shot/static/js/app.2d3eaed2.chunk.js",
+    "app.js.map": "/insta-shot/static/js/app.2d3eaed2.chunk.js.map",
     "runtime~app.js": "/insta-shot/static/js/runtime~app.76aefa02.js",
     "runtime~app.js.map": "/insta-shot/static/js/runtime~app.76aefa02.js.map",
     "static/js/2.24f944b5.chunk.js": "/insta-shot/static/js/2.24f944b5.chunk.js",
@@ -18,6 +18,6 @@
   "entrypoints": [
     "static/js/runtime~app.76aefa02.js",
     "static/js/2.24f944b5.chunk.js",
-    "static/js/app.6698744a.chunk.js"
+    "static/js/app.2d3eaed2.chunk.js"
   ]
 }
