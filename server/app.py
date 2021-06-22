@@ -13,7 +13,6 @@ CORS(app, resources={r'*': {'origins': '*'}})
 def process():
     if request.method == "GET":
         return redirect(url_for("home"))
-    print("asdfasdfs " , request.files)
     f = request.files['file']
     src = cv2.imdecode(np.fromstring(request.files['file'].read(), np.uint8), cv2.IMREAD_UNCHANGED)
     dst = correct.correct(src)

@@ -26,7 +26,18 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "config": {
+        "firebase": {
+          "apiKey": "AIzaSyC8LvbClynPH1W1ShfJ2RnSK4YcS901EyQ",
+          "authDomain": "insta-shot-44c7f.firebaseapp.com",
+          "projectId": "insta-shot-44c7f",
+          "storageBucket": "insta-shot-44c7f.appspot.com",
+          "messagingSenderId": "484309481547",
+          "appId": "1:484309481547:web:275e13990c85d427de35ce",
+          "measurementId": "G-32RGDNJJRZ"
+        }
+      }
     }
   }
 }
