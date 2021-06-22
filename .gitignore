@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 *.pem
+=======
+cert.pem
+privkey.pem
+fullchain.pem
+server/nohup.out
+*.out
+>>>>>>> 277a003f42af451be4ac55070949ae1309c8140d
