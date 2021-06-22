@@ -2,3 +2,4 @@ cert.pem
 privkey.pem
 fullchain.pem
 server/nohup.out
+*.out
