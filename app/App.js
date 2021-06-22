@@ -65,14 +65,6 @@ export default function App() {
       <View style={{flex:3, padding : 0, justifyContent:'center', alignItems:'center'}}>
         <iframe width="100%" allowtransparency="true" src="https://tab2.clickmon.co.kr/pop/wp_ad_728.php?PopAd=CM_M_1003067%7C%5E%7CCM_A_1093475%7C%5E%7CAdver_M_1046207&mon_rf=REFERRER_URL" frameBorder="0" scrolling="no"></iframe>
       </View>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-MY9XPYR54P"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-MY9XPYR54P');
-      </script>
     </View>
   );
 }

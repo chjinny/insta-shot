@@ -5,23 +5,9 @@ from numpy import core
 import correct
 from flask_cors import CORS
 import base64
-from flask_sqlalchemy import SQLAlchemy
-
 app = Flask(__name__)
 CORS(app, resources={r'*': {'origins': '*'}})
 
-app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://root@chjinny.duckdns.org:3306/insta_shot"
-app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
-db = SQLAlchemy(app)
-
-
-class logs(db.Model):
-    user = db.Column(db.Integer)
-
-@app.route('/user', methods = ['GET'])
-def use():
-    print(db.query(Model.user).all())
-    return redirect(url_for("home"))
     
 @app.route('/process', methods = ['GET', 'POST'])
 def process():
