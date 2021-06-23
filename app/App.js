@@ -35,7 +35,7 @@ export default function App() {
         <Text>사진을 보정하고 있어요. 잠시만 기다려주세요</Text>
       </View>
       : 
-      <View style={{flex:10, flexDirection:"row", alignItems:'center'}}>
+      <View style={{flex:10, flexDirection:"row"}}>
         <View style={{flex:1}}>
           {!images[0] ? 
           <View style = {{flex:1, alignItems:'center', justifyContent:'center'}}>
@@ -44,7 +44,9 @@ export default function App() {
           : 
           <Image source={{ uri: images[0].uri }} style={{flex : 1, resizeMode: 'contain'}}/>}
         </View>
-        <Text>➡</Text>
+        <View style={{alignItems:"center", justifyContent:"center", padding:10}}>
+          <Text>➡</Text>
+        </View>
         <View style={{flex:1}}>
           {!images[1] ? 
           <View style = {{flex:1, alignItems:'center', justifyContent:'center'}}>

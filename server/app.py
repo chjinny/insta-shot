@@ -5,9 +5,9 @@ from numpy import core
 import correct
 from flask_cors import CORS
 import base64
+
 app = Flask(__name__)
 CORS(app, resources={r'*': {'origins': '*'}})
-
     
 @app.route('/process', methods = ['GET', 'POST'])
 def process():
