@@ -25,9 +25,12 @@
     "expo": "~41.0.1",
     "expo-2d-context": "0.0.2",
     "expo-camera": "^11.0.3",
+    "expo-cli": "^4.5.2",
+    "expo-firebase-analytics": "~4.0.2",
     "expo-gl": "~10.2.0",
     "expo-image-picker": "~10.1.4",
     "expo-status-bar": "~1.0.4",
+    "firebase": "8.2.3",
     "form-data": "^4.0.0",
     "gh-pages": "^3.2.1",
     "react": "16.13.1",
@@ -36,9 +39,7 @@
     "react-native-canvas": "^0.1.37",
     "react-native-fs": "^2.18.0",
     "react-native-web": "~0.13.12",
-    "react-native-webview": "^11.6.4",
-    "expo-firebase-analytics": "~4.0.2",
-    "firebase": "8.2.3"
+    "react-native-webview": "^11.6.4"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0"
