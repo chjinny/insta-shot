@@ -22,14 +22,11 @@ export default function App() {
   }, [])
   return (
     <View style={{flex:1}}>
-      <View style={{minWidth: 40, alignItems : 'center'}}>
-        <Image source={logo} style={{width : 200, height: 100, marginTop:10,  marginBottom:10, borderRadius : 10}} /> 
-      </View>
-      <View style={{flex:2, padding : 10, justifyContent:'flex-start', alignItems:'center',
+      <View style={{padding : 10, minWidth: 40, alignItems : 'center',  justifyContent:'flex-start', alignItems:'center',
       shadowOffset: {width: 0, height: 10 }, shadowOpacity:0.1, shadowRadius:10,
       elevation: 10 
     }}>
-      <iframe width="100%" allowtransparency="true" src="https://tab2.clickmon.co.kr/pop/wp_ad_728.php?PopAd=CM_M_1003067%7C%5E%7CCM_A_1093475%7C%5E%7CAdver_M_1046207&mon_rf=REFERRER_URL" frameBorder="0" scrolling="no"></iframe>
+      <Image source={logo} style={{width : 200, height: 100, marginTop:10,  marginBottom:10, borderRadius : 10}} /> 
       </View>
       {isLoading ? <View style={{flex:10, flexDirection:"row", justifyContent:'center', alignItems:'center'}}>
         <Text>사진을 보정하고 있어요. 잠시만 기다려주세요</Text>
@@ -64,8 +61,9 @@ export default function App() {
         <Text>용량이 큰 사진은 오래 걸릴 수 있어요</Text>
         <ImageSelector setImages={setImages} setIsLoading={setIsLoading}></ImageSelector>
       </View>
-      <View style={{flex:3, padding : 0, justifyContent:'center', alignItems:'center'}}>
-        <iframe width="100%" allowtransparency="true" src="https://tab2.clickmon.co.kr/pop/wp_ad_728.php?PopAd=CM_M_1003067%7C%5E%7CCM_A_1093475%7C%5E%7CAdver_M_1046207&mon_rf=REFERRER_URL" frameBorder="0" scrolling="no"></iframe>
+      <View style={{minWidth:200, padding : 0, justifyContent:'center', alignItems:'center'}}>
+        <iframe  width="100%" height="90" allowtransparency="true" src="https://tab2.clickmon.co.kr/pop/wp_ad_728.php?PopAd=CM_M_1003067%7C%5E%7CCM_A_1093475%7C%5E%7CAdver_M_1046207&mon_rf=REFERRER_URL" frameBorder="0" scrolling="no"></iframe>
+        <iframe  width="100%" height="90" allowtransparency="true" src="https://tab2.clickmon.co.kr/pop/wp_ad_728.php?PopAd=CM_M_1003067%7C%5E%7CCM_A_1093475%7C%5E%7CAdver_M_1046207&mon_rf=REFERRER_URL" frameBorder="0" scrolling="no"></iframe>
       </View>
     </View>
   );
