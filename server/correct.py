@@ -24,10 +24,10 @@ def correct(img):
             if len(leg_ys) > 10:
                 leg_y_avg = int(sum(leg_ys[-10:]) / 10)
 
-            img_long = cv2.resize(img[leg_y_avg:], dsize=None, fx=1.0, fy=1.5)
+            img_long = cv2.resize(img[leg_y_avg:], dsize=None, fx=1.0, fy=1.3)
             #img_long = cv2.resize(img_long[:int(img_long.shape[0] * 0.75)], dsize=(W, H - leg_y_avg))
             #output[leg_y_avg:] = img_long
-            
+
             output = cv2.vconcat([output[:leg_y_avg],img_long])
         
         return output
@@ -37,4 +37,5 @@ if __name__ == "__main__":
     src = cv2.imread(path)
     dst = correct(src)
     #view = cv2.hconcat([src,dst])
+    #cv2.imwrite("./img/result.jpg", view)
     cv2.imwrite("./img/result.jpg", dst)
