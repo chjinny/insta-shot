@@ -10,14 +10,10 @@ import * as Analytics from 'expo-firebase-analytics';
 export default function App() {
   const [images, setImages] = useState([null, null]);
   const [isLoading, setIsLoading] = useState(false)
-  const [device, setDevice] = useState(true)
-  const [adHeight, setAdHeight] = useState(90)
+  const [adSize, setAdSize] = useState([728, 90])
   console.log(images)
   useEffect(() =>{
-    setDevice(/iPhone|iPad|iPod|Android/i.test(navigator.userAgent));
-    if (device){
-      setAdHeight(50)
-    }
+    setAdSize(/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)? [320, 50]:[728, 90]);
     (async function() {
       try {
           const anal = await Analytics.setAnalyticsCollectionEnabled(true);
@@ -67,9 +63,9 @@ export default function App() {
         <Text>용량이 큰 사진은 오래 걸릴 수 있어요</Text>
         <ImageSelector setImages={setImages} setIsLoading={setIsLoading}></ImageSelector>
       </View>
-      <View style={{minWidth:adHeight*2, padding : 0, justifyContent:'center', alignItems:'center'}}>
-        <iframe  width="100%" height={adHeight} allowtransparency="true" src="https://tab2.clickmon.co.kr/pop/wp_ad_728.php?PopAd=CM_M_1003067%7C%5E%7CCM_A_1093475%7C%5E%7CAdver_M_1046207&mon_rf=REFERRER_URL" frameBorder="0" scrolling="no"></iframe>
-        <iframe  width="100%" height={adHeight} allowtransparency="true" src="https://tab2.clickmon.co.kr/pop/wp_ad_728.php?PopAd=CM_M_1003067%7C%5E%7CCM_A_1093475%7C%5E%7CAdver_M_1046207&mon_rf=REFERRER_URL" frameBorder="0" scrolling="no"></iframe>
+      <View style={{minWidth:adSize[1]*2, padding : 0, justifyContent:'center', alignItems:'center'}}>
+        <iframe  width={adSize[0]} height={adSize[1]} allowtransparency="true" src="https://tab2.clickmon.co.kr/pop/wp_ad_728.php?PopAd=CM_M_1003067%7C%5E%7CCM_A_1093475%7C%5E%7CAdver_M_1046207&mon_rf=REFERRER_URL" frameBorder="0" scrolling="no"></iframe>
+        <iframe  width={adSize[0]} height={adSize[1]} allowtransparency="true" src="https://tab2.clickmon.co.kr/pop/wp_ad_728.php?PopAd=CM_M_1003067%7C%5E%7CCM_A_1093475%7C%5E%7CAdver_M_1046207&mon_rf=REFERRER_URL" frameBorder="0" scrolling="no"></iframe>
       </View>
     </View>
   );
