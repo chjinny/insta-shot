@@ -10,14 +10,6 @@ import pymysql
 app = Flask(__name__)
 CORS(app, resources={r'*': {'origins': '*'}})
     
-db = pymysql.connect(
-    user = 'root',
-    passwd = 'root',
-    host='chjinny.duckdns.org:3306',
-    db='insta-shot',
-)
-cursor = db.cursor(pymysql.cursors.DictCursor)
-
 @app.route('/user', methods = ['GET'])
 def user():
     sql = "SELECT * FROM 'logs';"
