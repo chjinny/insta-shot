@@ -1,23 +1,23 @@
 {
   "files": {
-    "app.js": "/insta-shot/static/js/app.1a76e958.chunk.js",
-    "app.js.map": "/insta-shot/static/js/app.1a76e958.chunk.js.map",
+    "app.js": "/insta-shot/static/js/app.96347782.chunk.js",
+    "app.js.map": "/insta-shot/static/js/app.96347782.chunk.js.map",
     "runtime~app.js": "/insta-shot/static/js/runtime~app.76aefa02.js",
     "runtime~app.js.map": "/insta-shot/static/js/runtime~app.76aefa02.js.map",
-    "static/js/2.7fd6f9a9.chunk.js": "/insta-shot/static/js/2.7fd6f9a9.chunk.js",
-    "static/js/2.7fd6f9a9.chunk.js.map": "/insta-shot/static/js/2.7fd6f9a9.chunk.js.map",
+    "static/js/2.0d2c7dd6.chunk.js": "/insta-shot/static/js/2.0d2c7dd6.chunk.js",
+    "static/js/2.0d2c7dd6.chunk.js.map": "/insta-shot/static/js/2.0d2c7dd6.chunk.js.map",
     "favicon-16.png": "/insta-shot/favicon-16.png",
     "favicon-32.png": "/insta-shot/favicon-32.png",
     "favicon.ico": "/insta-shot/favicon.ico",
     "index.html": "/insta-shot/index.html",
     "manifest.json": "/insta-shot/manifest.json",
     "serve.json": "/insta-shot/serve.json",
-    "static/js/2.7fd6f9a9.chunk.js.LICENSE.txt": "/insta-shot/static/js/2.7fd6f9a9.chunk.js.LICENSE.txt",
+    "static/js/2.0d2c7dd6.chunk.js.LICENSE.txt": "/insta-shot/static/js/2.0d2c7dd6.chunk.js.LICENSE.txt",
     "static/media/logo.png": "/insta-shot/static/media/logo.155c0ece.png"
   },
   "entrypoints": [
     "static/js/runtime~app.76aefa02.js",
-    "static/js/2.7fd6f9a9.chunk.js",
-    "static/js/app.1a76e958.chunk.js"
+    "static/js/2.0d2c7dd6.chunk.js",
+    "static/js/app.96347782.chunk.js"
   ]
 }
