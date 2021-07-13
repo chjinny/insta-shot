@@ -1,7 +1,6 @@
 # 📷 Insta Shot
 ## 🧍‍♂️🧍‍♀️ Correct Your Body Ratio 
-현재 AWS서버를 중지시킨 상태입니다.
-Try Now! https://chjinny.github.io/insta-shot/
+현재 AWS서버를 중지시켜 접속이 불가한 상태입니다.
 
 ![Result](./img/result.jpg)
 
