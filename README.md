@@ -1,7 +1,5 @@
 # 📷 Insta Shot
 ## 🧍‍♂️🧍‍♀️ Correct Your Body Ratio 
-현재 AWS서버를 중지시켜 접속이 불가한 상태입니다.
-
 ![Result](./img/result.jpg)
 
 https://youtu.be/96e6fB9Wg0g
